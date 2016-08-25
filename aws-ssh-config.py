@@ -132,7 +132,8 @@ def main():
                 counts_incremental[id] += 1
                 id += '-' + str(counts_incremental[id])
 
-            print 'Host ' + args.prefix + id
+            # print 'Host ' + args.prefix + id
+            print 'Host ' + ip
             print '    HostName ' + ip
 
             try:
